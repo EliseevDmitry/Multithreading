@@ -11,7 +11,8 @@ import SwiftUI
 struct MultithreadingApp: App {
     var body: some Scene {
         WindowGroup {
-            DoCatchTryThrows()
+            //DoCatchTryThrows()
+            DownloadImageAsync()
         }
     }
 }
