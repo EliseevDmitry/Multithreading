@@ -160,9 +160,7 @@ struct DoCatchTryThrows: View {
                 .onTapGesture {
                     viewModel.manager.isActive = true
                     viewModel.fetchTitle5()
-                }
-             
-            
+                } 
         }
         .padding()
     }
