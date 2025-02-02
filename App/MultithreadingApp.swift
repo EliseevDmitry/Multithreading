@@ -12,7 +12,11 @@ struct MultithreadingApp: App {
     var body: some Scene {
         WindowGroup {
             //DoCatchTryThrows()
-            DownloadImageAsync()
+            //DownloadImageAsync()
+            //AsyncAwait()
+            //Task_example()
+            //TaskStartPage()
+            ContinuationAsync()
         }
     }
 }

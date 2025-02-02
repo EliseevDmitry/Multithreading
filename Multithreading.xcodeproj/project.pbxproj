@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		265152622D4F60DF00154A83 /* Task-example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265152612D4F60DF00154A83 /* Task-example.swift */; };
+		265152652D4F8BB300154A83 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265152642D4F8BB300154A83 /* AsyncLet.swift */; };
+		265152682D4FA25F00154A83 /* TaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265152672D4FA25F00154A83 /* TaskGroup.swift */; };
+		2651526B2D4FDB5A00154A83 /* ContinuationAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651526A2D4FDB5A00154A83 /* ContinuationAsync.swift */; };
 		2693042D2D2E515B00F9FA93 /* MultithreadingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693042C2D2E515B00F9FA93 /* MultithreadingApp.swift */; };
 		2693042F2D2E515B00F9FA93 /* DoCatchTryThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693042E2D2E515B00F9FA93 /* DoCatchTryThrows.swift */; };
 		269304312D2E515C00F9FA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269304302D2E515C00F9FA93 /* Assets.xcassets */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		265152612D4F60DF00154A83 /* Task-example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task-example.swift"; sourceTree = "<group>"; };
+		265152642D4F8BB300154A83 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
+		265152672D4FA25F00154A83 /* TaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroup.swift; sourceTree = "<group>"; };
+		2651526A2D4FDB5A00154A83 /* ContinuationAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuationAsync.swift; sourceTree = "<group>"; };
 		269304292D2E515B00F9FA93 /* Multithreading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multithreading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2693042C2D2E515B00F9FA93 /* MultithreadingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultithreadingApp.swift; sourceTree = "<group>"; };
 		2693042E2D2E515B00F9FA93 /* DoCatchTryThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrows.swift; sourceTree = "<group>"; };
@@ -42,6 +50,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		265152602D4F60BA00154A83 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				265152612D4F60DF00154A83 /* Task-example.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		265152632D4F8B9400154A83 /* AsyncLet */ = {
+			isa = PBXGroup;
+			children = (
+				265152642D4F8BB300154A83 /* AsyncLet.swift */,
+			);
+			path = AsyncLet;
+			sourceTree = "<group>";
+		};
+		265152662D4FA24B00154A83 /* TaskGroup */ = {
+			isa = PBXGroup;
+			children = (
+				265152672D4FA25F00154A83 /* TaskGroup.swift */,
+			);
+			path = TaskGroup;
+			sourceTree = "<group>";
+		};
+		265152692D4FDB2500154A83 /* Continuation */ = {
+			isa = PBXGroup;
+			children = (
+				2651526A2D4FDB5A00154A83 /* ContinuationAsync.swift */,
+			);
+			path = Continuation;
+			sourceTree = "<group>";
+		};
 		269304202D2E515B00F9FA93 = {
 			isa = PBXGroup;
 			children = (
@@ -49,6 +89,10 @@
 				2693043B2D2E51A100F9FA93 /* Try_do_catch */,
 				26E552A82D4A9CDD00F9683C /* Closures, combine, async_await */,
 				26E1600F2D4B30AD00D4F4A9 /* AsyncAwait */,
+				265152602D4F60BA00154A83 /* Task */,
+				265152632D4F8B9400154A83 /* AsyncLet */,
+				265152662D4FA24B00154A83 /* TaskGroup */,
+				265152692D4FDB2500154A83 /* Continuation */,
 				2693043F2D2E51F800F9FA93 /* Resources */,
 				2693042A2D2E515B00F9FA93 /* Products */,
 			);
@@ -178,8 +222,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				265152652D4F8BB300154A83 /* AsyncLet.swift in Sources */,
 				2693042F2D2E515B00F9FA93 /* DoCatchTryThrows.swift in Sources */,
+				265152622D4F60DF00154A83 /* Task-example.swift in Sources */,
+				2651526B2D4FDB5A00154A83 /* ContinuationAsync.swift in Sources */,
 				26E552AA2D4A9D5500F9683C /* DownloadImageAsync.swift in Sources */,
+				265152682D4FA25F00154A83 /* TaskGroup.swift in Sources */,
 				2693042D2D2E515B00F9FA93 /* MultithreadingApp.swift in Sources */,
 				26E160112D4B30D300D4F4A9 /* AsyncAwait.swift in Sources */,
 			);

@@ -27,23 +27,33 @@ final class AsyncAwaitViewModel: ObservableObject {
         }
     }
     
+    func currentThreadID() -> String {
+        //let threadID = pthread_self()
+        let thread = Thread.current
+        return String(format: "\(thread)")
+    }
+    
     func addAuthor1() async {
         /*
          с введением swift6 нельзя использовать в асинхронной функции "Thread.current" - так как эта строчка кода может быть выполнена на любом потоке
          */
-        print(Task.currentPriority)
-        let author1 = "Author1 : \(Thread.current)"
-        self.dataArray.append(author1)
-        //try? await Task.sleep(nanoseconds: 2_000_000_000)
+        
+        let author1 = "Author1 : \(currentThreadID())"
+        await MainActor.run {
+            self.dataArray.append(author1)
+        }
+         
+        //аналог задержки (.now() + 2)
+        try? await Task.sleep(nanoseconds: 2_000_000_000)
         try? await doSomething()
         /*
          с введением swift6 нельзя использовать в асинхронной функции "Thread.current" - так как эта строчка кода может быть выполнена на любом потоке
          */
-        let author2 = "Author2 : \(Thread.current)"
+        let author2 = "Author2 : \(currentThreadID())"
         //переход на главный поток
         await MainActor.run {
             self.dataArray.append(author2)
-            let author3 = "Author3 : \(Thread.current)"
+            let author3 = "Author3 : \(currentThreadID())"
             self.dataArray.append(author3)
         }
     }
@@ -64,6 +74,11 @@ struct AsyncAwait: View {
         .onAppear{
             Task{
                 await viewModel.addAuthor1()
+                
+                //все блоки кода идут последовательно, хотя мы находимся в async/await среде
+                
+                let finalText = "Final"
+                viewModel.dataArray.append(finalText)
             }
         }
 //        .onAppear{
