@@ -16,7 +16,9 @@ struct MultithreadingApp: App {
             //AsyncAwait()
             //Task_example()
             //TaskStartPage()
-            ContinuationAsync()
+            //ContinuationAsync()
+            //StructClassActorHomeView()
+            Actors()
         }
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2619B8F92D53F0750026589E /* Actors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2619B8F82D53F0750026589E /* Actors.swift */; };
 		265152622D4F60DF00154A83 /* Task-example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265152612D4F60DF00154A83 /* Task-example.swift */; };
 		265152652D4F8BB300154A83 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265152642D4F8BB300154A83 /* AsyncLet.swift */; };
 		265152682D4FA25F00154A83 /* TaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265152672D4FA25F00154A83 /* TaskGroup.swift */; };
@@ -15,11 +16,13 @@
 		2693042F2D2E515B00F9FA93 /* DoCatchTryThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693042E2D2E515B00F9FA93 /* DoCatchTryThrows.swift */; };
 		269304312D2E515C00F9FA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269304302D2E515C00F9FA93 /* Assets.xcassets */; };
 		26D5CAFD2D5125A100C6E1E5 /* StructClassActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D5CAFC2D5125A100C6E1E5 /* StructClassActor.swift */; };
+		26DAA8DC2D552722009664F6 /* GlobalActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DAA8DB2D552722009664F6 /* GlobalActor.swift */; };
 		26E160112D4B30D300D4F4A9 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E160102D4B30D300D4F4A9 /* AsyncAwait.swift */; };
 		26E552AA2D4A9D5500F9683C /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E552A92D4A9D5500F9683C /* DownloadImageAsync.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2619B8F82D53F0750026589E /* Actors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actors.swift; sourceTree = "<group>"; };
 		265152612D4F60DF00154A83 /* Task-example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task-example.swift"; sourceTree = "<group>"; };
 		265152642D4F8BB300154A83 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
 		265152672D4FA25F00154A83 /* TaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroup.swift; sourceTree = "<group>"; };
@@ -29,6 +32,7 @@
 		2693042E2D2E515B00F9FA93 /* DoCatchTryThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrows.swift; sourceTree = "<group>"; };
 		269304302D2E515C00F9FA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26D5CAFC2D5125A100C6E1E5 /* StructClassActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClassActor.swift; sourceTree = "<group>"; };
+		26DAA8DB2D552722009664F6 /* GlobalActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActor.swift; sourceTree = "<group>"; };
 		26E160102D4B30D300D4F4A9 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 		26E552A92D4A9D5500F9683C /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2619B8F72D53F05D0026589E /* Actors */ = {
+			isa = PBXGroup;
+			children = (
+				2619B8F82D53F0750026589E /* Actors.swift */,
+			);
+			path = Actors;
+			sourceTree = "<group>";
+		};
 		265152602D4F60BA00154A83 /* Task */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +108,8 @@
 				265152662D4FA24B00154A83 /* TaskGroup */,
 				265152692D4FDB2500154A83 /* Continuation */,
 				26D5CAFB2D51257600C6E1E5 /* StructClassActor */,
+				2619B8F72D53F05D0026589E /* Actors */,
+				26DAA8DA2D552703009664F6 /* GlobalActor */,
 				2693043F2D2E51F800F9FA93 /* Resources */,
 				2693042A2D2E515B00F9FA93 /* Products */,
 			);
@@ -140,6 +154,14 @@
 				26D5CAFC2D5125A100C6E1E5 /* StructClassActor.swift */,
 			);
 			path = StructClassActor;
+			sourceTree = "<group>";
+		};
+		26DAA8DA2D552703009664F6 /* GlobalActor */ = {
+			isa = PBXGroup;
+			children = (
+				26DAA8DB2D552722009664F6 /* GlobalActor.swift */,
+			);
+			path = GlobalActor;
 			sourceTree = "<group>";
 		};
 		26E1600F2D4B30AD00D4F4A9 /* AsyncAwait */ = {
@@ -234,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				265152652D4F8BB300154A83 /* AsyncLet.swift in Sources */,
+				2619B8F92D53F0750026589E /* Actors.swift in Sources */,
 				2693042F2D2E515B00F9FA93 /* DoCatchTryThrows.swift in Sources */,
 				265152622D4F60DF00154A83 /* Task-example.swift in Sources */,
 				2651526B2D4FDB5A00154A83 /* ContinuationAsync.swift in Sources */,
@@ -241,6 +264,7 @@
 				265152682D4FA25F00154A83 /* TaskGroup.swift in Sources */,
 				2693042D2D2E515B00F9FA93 /* MultithreadingApp.swift in Sources */,
 				26E160112D4B30D300D4F4A9 /* AsyncAwait.swift in Sources */,
+				26DAA8DC2D552722009664F6 /* GlobalActor.swift in Sources */,
 				26D5CAFD2D5125A100C6E1E5 /* StructClassActor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
