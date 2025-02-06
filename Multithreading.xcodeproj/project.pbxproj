@@ -16,7 +16,7 @@
 		2693042F2D2E515B00F9FA93 /* DoCatchTryThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693042E2D2E515B00F9FA93 /* DoCatchTryThrows.swift */; };
 		269304312D2E515C00F9FA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269304302D2E515C00F9FA93 /* Assets.xcassets */; };
 		26D5CAFD2D5125A100C6E1E5 /* StructClassActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D5CAFC2D5125A100C6E1E5 /* StructClassActor.swift */; };
-		26DAA8DC2D552722009664F6 /* GlobalActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DAA8DB2D552722009664F6 /* GlobalActor.swift */; };
+		26DAA8DC2D552722009664F6 /* GlobalActorProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DAA8DB2D552722009664F6 /* GlobalActorProject.swift */; };
 		26E160112D4B30D300D4F4A9 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E160102D4B30D300D4F4A9 /* AsyncAwait.swift */; };
 		26E552AA2D4A9D5500F9683C /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E552A92D4A9D5500F9683C /* DownloadImageAsync.swift */; };
 /* End PBXBuildFile section */
@@ -32,7 +32,7 @@
 		2693042E2D2E515B00F9FA93 /* DoCatchTryThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrows.swift; sourceTree = "<group>"; };
 		269304302D2E515C00F9FA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26D5CAFC2D5125A100C6E1E5 /* StructClassActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClassActor.swift; sourceTree = "<group>"; };
-		26DAA8DB2D552722009664F6 /* GlobalActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActor.swift; sourceTree = "<group>"; };
+		26DAA8DB2D552722009664F6 /* GlobalActorProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActorProject.swift; sourceTree = "<group>"; };
 		26E160102D4B30D300D4F4A9 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 		26E552A92D4A9D5500F9683C /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,7 +159,7 @@
 		26DAA8DA2D552703009664F6 /* GlobalActor */ = {
 			isa = PBXGroup;
 			children = (
-				26DAA8DB2D552722009664F6 /* GlobalActor.swift */,
+				26DAA8DB2D552722009664F6 /* GlobalActorProject.swift */,
 			);
 			path = GlobalActor;
 			sourceTree = "<group>";
@@ -264,7 +264,7 @@
 				265152682D4FA25F00154A83 /* TaskGroup.swift in Sources */,
 				2693042D2D2E515B00F9FA93 /* MultithreadingApp.swift in Sources */,
 				26E160112D4B30D300D4F4A9 /* AsyncAwait.swift in Sources */,
-				26DAA8DC2D552722009664F6 /* GlobalActor.swift in Sources */,
+				26DAA8DC2D552722009664F6 /* GlobalActorProject.swift in Sources */,
 				26D5CAFD2D5125A100C6E1E5 /* StructClassActor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
