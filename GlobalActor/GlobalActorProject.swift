@@ -12,6 +12,8 @@ import SwiftUI
  @GlobalActor - globally-unique actor
  */
 
+//Методы actor, могут выполняться в любом потоке (основной или фоновый), в зависимости от того, откуда они вызываются, но всегда с соблюдением правил асинхронности и потокобезопасности
+
 //нужно контролировать что бы был единственный экземпляр MyNewDataManager()!!!
 @globalActor final class MyFirstGlobalActor {
     //@globalActor - должен рeализовать 1 some Actor

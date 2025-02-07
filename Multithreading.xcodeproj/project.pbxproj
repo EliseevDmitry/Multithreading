@@ -15,6 +15,11 @@
 		2693042D2D2E515B00F9FA93 /* MultithreadingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693042C2D2E515B00F9FA93 /* MultithreadingApp.swift */; };
 		2693042F2D2E515B00F9FA93 /* DoCatchTryThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693042E2D2E515B00F9FA93 /* DoCatchTryThrows.swift */; };
 		269304312D2E515C00F9FA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269304302D2E515C00F9FA93 /* Assets.xcassets */; };
+		26C3C96F2D55BEF3009788B5 /* SendableProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C3C96E2D55BEF3009788B5 /* SendableProject.swift */; };
+		26C3C9722D55CCC4009788B5 /* AsyncPublusher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C3C9712D55CCC4009788B5 /* AsyncPublusher.swift */; };
+		26CBDA652D56496C00F346FD /* StrongWeakProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CBDA642D56496C00F346FD /* StrongWeakProject.swift */; };
+		26CBDA682D56499B00F346FD /* RefrashhableProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CBDA672D56499B00F346FD /* RefrashhableProject.swift */; };
+		26CBDA6D2D565B2300F346FD /* MVVMTemplateProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CBDA6C2D565B2300F346FD /* MVVMTemplateProject.swift */; };
 		26D5CAFD2D5125A100C6E1E5 /* StructClassActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D5CAFC2D5125A100C6E1E5 /* StructClassActor.swift */; };
 		26DAA8DC2D552722009664F6 /* GlobalActorProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DAA8DB2D552722009664F6 /* GlobalActorProject.swift */; };
 		26E160112D4B30D300D4F4A9 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E160102D4B30D300D4F4A9 /* AsyncAwait.swift */; };
@@ -31,6 +36,11 @@
 		2693042C2D2E515B00F9FA93 /* MultithreadingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultithreadingApp.swift; sourceTree = "<group>"; };
 		2693042E2D2E515B00F9FA93 /* DoCatchTryThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrows.swift; sourceTree = "<group>"; };
 		269304302D2E515C00F9FA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26C3C96E2D55BEF3009788B5 /* SendableProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableProject.swift; sourceTree = "<group>"; };
+		26C3C9712D55CCC4009788B5 /* AsyncPublusher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPublusher.swift; sourceTree = "<group>"; };
+		26CBDA642D56496C00F346FD /* StrongWeakProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongWeakProject.swift; sourceTree = "<group>"; };
+		26CBDA672D56499B00F346FD /* RefrashhableProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefrashhableProject.swift; sourceTree = "<group>"; };
+		26CBDA6C2D565B2300F346FD /* MVVMTemplateProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMTemplateProject.swift; sourceTree = "<group>"; };
 		26D5CAFC2D5125A100C6E1E5 /* StructClassActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClassActor.swift; sourceTree = "<group>"; };
 		26DAA8DB2D552722009664F6 /* GlobalActorProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActorProject.swift; sourceTree = "<group>"; };
 		26E160102D4B30D300D4F4A9 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
@@ -110,6 +120,11 @@
 				26D5CAFB2D51257600C6E1E5 /* StructClassActor */,
 				2619B8F72D53F05D0026589E /* Actors */,
 				26DAA8DA2D552703009664F6 /* GlobalActor */,
+				26C3C96D2D55BECD009788B5 /* Sendable */,
+				26C3C9702D55CC9F009788B5 /* AsyncPublusher */,
+				26CBDA632D56494700F346FD /* StrongWeak */,
+				26CBDA6B2D565AED00F346FD /* MVVM Template */,
+				26CBDA662D56498700F346FD /* Refrashhable */,
 				2693043F2D2E51F800F9FA93 /* Resources */,
 				2693042A2D2E515B00F9FA93 /* Products */,
 			);
@@ -146,6 +161,46 @@
 				2693043D2D2E51D500F9FA93 /* Preview Content */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		26C3C96D2D55BECD009788B5 /* Sendable */ = {
+			isa = PBXGroup;
+			children = (
+				26C3C96E2D55BEF3009788B5 /* SendableProject.swift */,
+			);
+			path = Sendable;
+			sourceTree = "<group>";
+		};
+		26C3C9702D55CC9F009788B5 /* AsyncPublusher */ = {
+			isa = PBXGroup;
+			children = (
+				26C3C9712D55CCC4009788B5 /* AsyncPublusher.swift */,
+			);
+			path = AsyncPublusher;
+			sourceTree = "<group>";
+		};
+		26CBDA632D56494700F346FD /* StrongWeak */ = {
+			isa = PBXGroup;
+			children = (
+				26CBDA642D56496C00F346FD /* StrongWeakProject.swift */,
+			);
+			path = StrongWeak;
+			sourceTree = "<group>";
+		};
+		26CBDA662D56498700F346FD /* Refrashhable */ = {
+			isa = PBXGroup;
+			children = (
+				26CBDA672D56499B00F346FD /* RefrashhableProject.swift */,
+			);
+			path = Refrashhable;
+			sourceTree = "<group>";
+		};
+		26CBDA6B2D565AED00F346FD /* MVVM Template */ = {
+			isa = PBXGroup;
+			children = (
+				26CBDA6C2D565B2300F346FD /* MVVMTemplateProject.swift */,
+			);
+			path = "MVVM Template";
 			sourceTree = "<group>";
 		};
 		26D5CAFB2D51257600C6E1E5 /* StructClassActor */ = {
@@ -260,12 +315,17 @@
 				2693042F2D2E515B00F9FA93 /* DoCatchTryThrows.swift in Sources */,
 				265152622D4F60DF00154A83 /* Task-example.swift in Sources */,
 				2651526B2D4FDB5A00154A83 /* ContinuationAsync.swift in Sources */,
+				26C3C96F2D55BEF3009788B5 /* SendableProject.swift in Sources */,
 				26E552AA2D4A9D5500F9683C /* DownloadImageAsync.swift in Sources */,
+				26CBDA682D56499B00F346FD /* RefrashhableProject.swift in Sources */,
 				265152682D4FA25F00154A83 /* TaskGroup.swift in Sources */,
+				26CBDA652D56496C00F346FD /* StrongWeakProject.swift in Sources */,
 				2693042D2D2E515B00F9FA93 /* MultithreadingApp.swift in Sources */,
 				26E160112D4B30D300D4F4A9 /* AsyncAwait.swift in Sources */,
 				26DAA8DC2D552722009664F6 /* GlobalActorProject.swift in Sources */,
+				26CBDA6D2D565B2300F346FD /* MVVMTemplateProject.swift in Sources */,
 				26D5CAFD2D5125A100C6E1E5 /* StructClassActor.swift in Sources */,
+				26C3C9722D55CCC4009788B5 /* AsyncPublusher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
