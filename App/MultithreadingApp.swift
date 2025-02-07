@@ -18,7 +18,8 @@ struct MultithreadingApp: App {
             //TaskStartPage()
             //ContinuationAsync()
             //StructClassActorHomeView()
-            Actors()
+            //Actors()
+            SearchableProject()
         }
     }
 }
