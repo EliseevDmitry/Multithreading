@@ -19,7 +19,10 @@ struct MultithreadingApp: App {
             //ContinuationAsync()
             //StructClassActorHomeView()
             //Actors()
-            SearchableProject()
+            //SearchableProject()
+            //AsyncStreamProject()
+            
+            ObservableMacro()
         }
     }
 }

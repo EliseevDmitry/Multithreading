@@ -17,6 +17,8 @@
 		2693042D2D2E515B00F9FA93 /* MultithreadingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693042C2D2E515B00F9FA93 /* MultithreadingApp.swift */; };
 		2693042F2D2E515B00F9FA93 /* DoCatchTryThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693042E2D2E515B00F9FA93 /* DoCatchTryThrows.swift */; };
 		269304312D2E515C00F9FA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269304302D2E515C00F9FA93 /* Assets.xcassets */; };
+		26B24A642D5CF02900105C20 /* AsyncStreamProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B24A632D5CF02900105C20 /* AsyncStreamProject.swift */; };
+		26B24A662D5D05A500105C20 /* ObservableMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B24A652D5D05A500105C20 /* ObservableMacro.swift */; };
 		26C3C96F2D55BEF3009788B5 /* SendableProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C3C96E2D55BEF3009788B5 /* SendableProject.swift */; };
 		26C3C9722D55CCC4009788B5 /* AsyncPublusher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C3C9712D55CCC4009788B5 /* AsyncPublusher.swift */; };
 		26CBDA652D56496C00F346FD /* StrongWeakProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CBDA642D56496C00F346FD /* StrongWeakProject.swift */; };
@@ -40,6 +42,8 @@
 		2693042C2D2E515B00F9FA93 /* MultithreadingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultithreadingApp.swift; sourceTree = "<group>"; };
 		2693042E2D2E515B00F9FA93 /* DoCatchTryThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrows.swift; sourceTree = "<group>"; };
 		269304302D2E515C00F9FA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26B24A632D5CF02900105C20 /* AsyncStreamProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncStreamProject.swift; sourceTree = "<group>"; };
+		26B24A652D5D05A500105C20 /* ObservableMacro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableMacro.swift; sourceTree = "<group>"; };
 		26C3C96E2D55BEF3009788B5 /* SendableProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableProject.swift; sourceTree = "<group>"; };
 		26C3C9712D55CCC4009788B5 /* AsyncPublusher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPublusher.swift; sourceTree = "<group>"; };
 		26CBDA642D56496C00F346FD /* StrongWeakProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongWeakProject.swift; sourceTree = "<group>"; };
@@ -147,6 +151,8 @@
 				26CBDA662D56498700F346FD /* Refrashhable */,
 				266602FB2D571855009EE14A /* SearchableProject */,
 				266602FE2D576444009EE14A /* PhotoPickerProject */,
+				26B24A612D5CEC9400105C20 /* AsyncStream */,
+				26B24A622D5CED8C00105C20 /* New Group */,
 				2693043F2D2E51F800F9FA93 /* Resources */,
 				2693042A2D2E515B00F9FA93 /* Products */,
 			);
@@ -183,6 +189,22 @@
 				2693043D2D2E51D500F9FA93 /* Preview Content */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		26B24A612D5CEC9400105C20 /* AsyncStream */ = {
+			isa = PBXGroup;
+			children = (
+				26B24A632D5CF02900105C20 /* AsyncStreamProject.swift */,
+			);
+			path = AsyncStream;
+			sourceTree = "<group>";
+		};
+		26B24A622D5CED8C00105C20 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				26B24A652D5D05A500105C20 /* ObservableMacro.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		26C3C96D2D55BECD009788B5 /* Sendable */ = {
@@ -335,9 +357,11 @@
 				265152652D4F8BB300154A83 /* AsyncLet.swift in Sources */,
 				2619B8F92D53F0750026589E /* Actors.swift in Sources */,
 				266602FD2D571889009EE14A /* SearchableProject.swift in Sources */,
+				26B24A662D5D05A500105C20 /* ObservableMacro.swift in Sources */,
 				2693042F2D2E515B00F9FA93 /* DoCatchTryThrows.swift in Sources */,
 				265152622D4F60DF00154A83 /* Task-example.swift in Sources */,
 				2651526B2D4FDB5A00154A83 /* ContinuationAsync.swift in Sources */,
+				26B24A642D5CF02900105C20 /* AsyncStreamProject.swift in Sources */,
 				26C3C96F2D55BEF3009788B5 /* SendableProject.swift in Sources */,
 				26E552AA2D4A9D5500F9683C /* DownloadImageAsync.swift in Sources */,
 				26CBDA682D56499B00F346FD /* RefrashhableProject.swift in Sources */,
